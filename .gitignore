@@ -31,3 +31,6 @@ Thumbs.db
 *_yedek*
 *yedek*
 ornek_veri.csv
+# README hariç tüm .md dosyalarını yoksay
+*.md
+!README*.md
