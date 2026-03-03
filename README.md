@@ -1,6 +1,11 @@
+*Diğer Diller: **Türkçe** | [English](README.en.md)*
+
+---
+
 # Çoklu QR Kod Oluşturucu
 
 Bu Python programı, Excel veya CSV formatındaki listelerde yer alan verileri (örneğin bağlantılar, metinler, seri numaraları vb.) toplu olarak okur ve her biri için otomatik olarak QR kodları oluşturarak belirlediğiniz klasöre kaydeder.
+
 
 ## Özellikler
 
