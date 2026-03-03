@@ -14,6 +14,13 @@ Bu Python programı, Excel veya CSV formatındaki listelerde yer alan verileri (
 - Python 3.8 veya üzeri
 - Gerekli Python kütüphaneleri: `qrcode`, `python-dotenv`, `pandas` (Eğer sadece .exe kullanacaksanız gereksinimlere ihtiyacınız yoktur.)
 
+## Proje Dosyaları (Scriptler)
+
+Bu projede 3 adet Python dosyası (`.py`) bulunmaktadır. Her birinin görevi şöyledir:
+
+1. **`qr_generator_app.py`**: Projenin **ana** dosyasıdır. Arayüzü açan, CSV/Excel dosyasını okuyan ve QR kodlarını oluşturan temel kodları barındırır. Kaynak koddan çalıştırırken bu dosyayı başlatırsınız.
+2. **`exe_olustur.py`**: Projeyi Python yüklü olmayan bilgisayarlarda da çalışabilmesi için `.exe` (çalıştırılabilir Windows uygulaması) formatına dönüştüren geliştirici aracıdır. Tek tıklamayla uygulamanın derlenmesini sağlar.
+3. **`convert_icon.py`**: Projenin logosunu (`logo.png`), Windows uygulamalarında ikon olarak kullanılabilmesi için `.ico` formatına (`logo.ico`) çeviren yardımcı bir araçtır.
 ## Kurulum ve Kullanım
 
 ### Seçenek 1: Çalıştırılabilir Dosya (Önerilen)
