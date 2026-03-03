@@ -1,0 +1,33 @@
+# Ortam Değişkenleri
+.env
+
+# Python Önbellek Dosyaları
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Sanal Ortamlar
+.venv/
+venv/
+env/
+
+# PyInstaller ve Derleme Dosyaları
+build/
+dist/
+*.spec
+Setup/
+
+# Uygulama Çıktıları ve Arşivler
+QR_Kodları/
+QR_Kodları2/
+*.rar
+*.zip
+
+# İşletim Sistemi Dosyaları
+.DS_Store
+Thumbs.db
+
+# Kullanıcı Özel Dosyaları / Yedekler
+*_yedek*
+*yedek*
+ornek_veri.csv
